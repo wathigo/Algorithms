@@ -13,13 +13,7 @@ class Grains
     end
 
     def self.calculate num
-        counter = 1
-        grains = 1
-        while counter < num
-            grains *= 2
-            counter += 1
-        end 
-        grains
+        2**(num - 1)
     end
 end
 
