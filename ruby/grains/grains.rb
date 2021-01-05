@@ -16,7 +16,6 @@ class Grains
         counter = 1
         grains = 1
         while counter < num
-            # print(counter, " ", grains)
             grains *= 2
             counter += 1
         end 
